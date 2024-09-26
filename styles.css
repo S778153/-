@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Myfont";
+    src: url("poprumkiwi/PopRumKiwi-Telop.ttf") format("truetype");
+}
+
+body {
+    margin: 0 auto;
+    background-image: url("mukasibanasi_yumiwohikuhei.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Myfont";
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.area {
+    overflow: hidden;
+}
+
+.wrap {
+    position: relative;
+    height: 100vh;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.itemmo {
+    background: none;
+}
+
+.item01 {
+    background: none;
+}
+
+.item02 {
+    background: #f18d1d;
+}
+
+.item03 {
+    background: #f8b633;
+}
+
+.item04 {
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: #8cc561;
+    background-image: url("mukasibanasi_yumiwohikuhei.png");
+    background-repeat: no-repeat;
+}
+
+.item05 {
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: #56aa59;
+    background-image: url("mukasibanasi_yumiwohikuhei.png");
+    background-repeat: no-repeat;
+}
+
+.item06 {
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: #ff0000;
+    background-image: url("mukasibanasi_yumiwohikuhei.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.item01,
+.item02,
+.item03 {
+    height: 100vh;
+    width: 100%;
+}
+
+.item04,
+.item05 {
+    position: absolute;
+    border-radius: 35px;
+}
+
+.item06 {
+    position: absolute;
+}
+
+.waku {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #333;
+    box-shadow: inset 0 0 5px 5px #aaa;
+}
